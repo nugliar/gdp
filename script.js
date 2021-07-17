@@ -2,7 +2,7 @@ import * as d3 from "https://cdn.skypack.dev/d3@7";
 
 document.addEventListener('DOMContentLoaded', () => {
   const request = new XMLHttpRequest()
-  const url = './GDP-data.json'
+  const url = './json/GDP-data.json'
 
   request.onload = () => {
 
